@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Calling App</title>
+    <link rel="stylesheet" href="design.css">
+   
+    <script src="/socket.io/socket.io.js"></script>
+     <script src = "client.js"></script>
+</head>
+<body>
+    <div id="root">
+        <header>
+            <h1>Video Calling App </h1>
+            <div >
+                <button id="join" >Join Meeting</button>
+            </div>
+        </header>
+        <hr>
+        <main id="grid">
+            <video id="video" muted autoplay playsinline class="tile"></video>
+        </main>
+        <footer>
+            <h5>Powered by Brain Mentors</h5>
+        </footer>
+    </div>
+</body>
+</html>

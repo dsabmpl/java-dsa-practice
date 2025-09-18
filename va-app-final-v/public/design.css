@@ -1,0 +1,11 @@
+#grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.tile{
+    width: 100%;
+    margin-left: 5px;
+    object-fit: cover;
+    border: 1px solid green;
+    
+}
